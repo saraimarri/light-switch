@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: white;
+}
+
+.body {
+  transition: background-color 0.5s ease-in-out;
+  background-color: white;
+}
+
+.body-dark {
+  background-color: rgb(45, 43, 43);
+}
+
+button {
+  background-color: white;
+  color: #333;
+  padding: 1rem 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  border: 5px solid #333;
+  border-radius: 2px;
+}
+
+.body-dark button {
+  border: 5px solid white;
+  background-color: #333;
+  color: white;
+  box-shadow:  0 0 30px 0 yellow;
+}
